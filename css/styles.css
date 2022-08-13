@@ -26,6 +26,7 @@ body {
     line-height: 1.5;
     color: var(--color-body);
     margin: 3rem;
+    padding: 0;
 }
 
 h1, h2, h3 {
@@ -620,6 +621,7 @@ a {
     --padding-vertical: 6rem;
     padding: var(--padding-vertical) 2rem;
     
+    
 }
 
 .block__header {
@@ -782,4 +784,29 @@ margin: 0;
     max-width: 500px;
     margin: 0 auto;
 }
+
+/* Features Block */
+
+.feature {
+    gap: 4rem 2rem;
+}
+
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+
+.feature__heading {
+    margin: 1rem 0;
+}
+
+.feature__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }
+}
+
 
