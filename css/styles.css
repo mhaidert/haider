@@ -31,6 +31,7 @@ body {
     line-height: 1.5;
     color: var(--color-body);
     padding: 0;
+    margin-left: 0;
 }
 
 h1, h2, h3 {
@@ -625,12 +626,11 @@ a {
 .block {
     --padding-vertical: 6rem;
     padding: var(--padding-vertical) 2rem;
-    
-    
 }
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block__heading {
@@ -832,4 +832,6 @@ margin: 0;
         max-width: 700px;
     }
 }
+
+/* Testimonial Block */
 
