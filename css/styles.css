@@ -370,7 +370,7 @@ a {
 }
 
 .plan__billing-cycle {
-    font-size: 2.4;
+    font-size: 2.4rem;
     font-weight: 300;
     opacity: 0.8;
     margin-right: 1rem;
@@ -469,7 +469,7 @@ a {
 .quote__author {
     font-size: 3rem;
     font-style: normal;
-    font-weight: 3rem;
+    font-weight: 500;
     margin-bottom: 0;
 }
 
@@ -485,7 +485,7 @@ a {
     bottom: 10px;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
     .quote {
         font-size: 2rem;
     }
