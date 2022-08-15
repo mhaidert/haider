@@ -859,11 +859,14 @@ margin: 0;
 
 .footer__section .list {
     margin: 0;
+    transform: translateY(1rem);
+    padding-bottom: .8rem;
 }
 
 .footer__heading {
     text-transform: uppercase;
     font-weight: 600;
+    transform: translateY(1rem);
 }
 
 .footer__brand {
@@ -875,12 +878,14 @@ margin: 0;
     /* TODO: Consider adding a width rule for all images. */
     width: 100%;
     max-width: 230px;
+    transform: translateY(1rem);
 }
 
 .footer__copyright {
     font-size: 2.1rem;
     color: #fff;
     opacity: .3;
+    transform: translateY(1rem);
 }
 
 @media screen and (min-width: 768px) {
@@ -895,6 +900,7 @@ margin: 0;
     .footer .collapsible__content {
         opacity: 1;
         max-height: 100%;
+        
     }
 
     .footer__brand {
@@ -913,4 +919,9 @@ margin: 0;
     .footer__heading {
         font-size: 1.6rem;
     }
+}
+
+/* Final Box */
+.callout-signup {
+    transform: translateY(5rem);
 }
